@@ -16,4 +16,4 @@ jobs:
             yarn run test
       - run:
           name: Trigger integration tests
-          command: curl -X POST "https://circleci.com/api/v1.1/project/github/anishkny/realworld-e2e-test?circle-token=$CIRCLE_CI_TOKEN"
+          command: curl -X POST "https://circleci.com/api/v1.1/project/github/cooltushar/nodeapp?circle-token=efd766d2e56b51bd4f5e098d2c3dd2134ad1e529"
